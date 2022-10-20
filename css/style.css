@@ -1,0 +1,78 @@
+.nav{
+	height: 50px;
+	background: orange;
+}
+.nav div{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+}
+.nav ul{
+	position: absolute;
+	right: 5px;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a{
+	color: white;
+	padding: 5px;
+}
+.home{
+	background: url(../images/homeback.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.home .text-container{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+}
+.about .about-content{
+	margin: 100px auto 0 auto;
+	width: 700px;
+}
+.about .about-content h1{
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 3 00%;
+	font-family: 'serif','roboto',sans-serif;
+	text-transform: capitalize;
+}
+.about .about-content p{
+	text-align: justify;
+	font-family: 'lato',sans-serif;
+	line-height: 2;
+}
+.services .services-content{
+	margin: 80px auto 0 auto;
+	text-align: center;
+}
+.services-content .card-container ul{
+	padding: 0;
+}
+.services-content .card-container ul li{
+	display: inline-block; 
+	list-style: none;
+	margin: 20px;
+	width: 300px;
+}
+.services-content .card-container ul li p{
+	text-align: center;
+	font-family: 'roboto',sans-serif; 
+	color: red;
+}
+.contact .detail h1{
+	text-align: center;
+	color: red;
+	margin: 150px auto 0 auto;
+}
+.contact .detail .address{
+	text-align: center;
+	margin: 50px auto 0 auto;
+}
